@@ -2,7 +2,7 @@
 
 A C++ static analysis and code optimization tool that detects and eliminates **dead code**, including unreachable functions and unused variables, using **control-flow and reachability analysis**.
 
-## 🚀 Overview
+##  Overview
 
 Code Optimizer analyzes C++ source code to identify code that can never be executed or is no longer required.
 
@@ -10,15 +10,15 @@ The project focuses on improving code quality and reducing unnecessary code by a
 
 ### Key Capabilities
 
-* 🔍 Detects unreachable functions
-* 🧹 Identifies unused variables
-* 🧠 Performs control-flow and reachability analysis
-* ✂️ Removes detected dead code
-* ⚡ Helps reduce binary size
-* 📈 Improves compilation efficiency
-* 🖥️ Provides a user-friendly interface for working with the optimizer
+*  Detects unreachable functions
+*  Identifies unused variables
+*  Performs control-flow and reachability analysis
+*  Removes detected dead code
+*  Helps reduce binary size
+*  Improves compilation efficiency
+*  Provides a user-friendly interface for working with the optimizer
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **C++**
 * **Static Analysis**
@@ -27,11 +27,10 @@ The project focuses on improving code quality and reducing unnecessary code by a
 * **Object-Oriented Programming**
 * **Qt** — GUI
 
-## 🏗️ How It Works
+##  How It Works
 
 The optimizer follows a static-analysis pipeline:
 
-```text
        C++ Source Code
               │
               ▼
@@ -60,9 +59,9 @@ The optimizer follows a static-analysis pipeline:
        └──────┬──────┘
               ▼
        Optimized Code
-```
 
-## 📊 Optimization Results
+
+## Optimization Results
 
 The optimizer was tested against C++ codebases and benchmarks.
 
@@ -75,7 +74,7 @@ The optimizer was tested against C++ codebases and benchmarks.
 
 > Results depend on the structure and amount of dead code present in the input program.
 
-## 💻 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -111,7 +110,7 @@ After building the project, launch the generated executable:
 
 On Windows, run the generated `.exe` file from the build directory.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Code-Optimizer/
@@ -126,7 +125,7 @@ Code-Optimizer/
 
 > Adjust the directory names above if your repository uses a different structure.
 
-## 🔬 Example
+##  Example
 
 ### Before Optimization
 
@@ -164,7 +163,7 @@ int main() {
 
 The optimizer identifies `unusedFunction()` and `unusedVariable` as dead code and removes them when they satisfy the tool's analysis criteria.
 
-## 🎯 What I Learned
+## What I Learned
 
 This project provided practical experience with:
 
@@ -178,7 +177,7 @@ This project provided practical experience with:
 * Building a GUI using Qt
 * Designing software that combines analysis with a user interface
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential improvements include:
 
